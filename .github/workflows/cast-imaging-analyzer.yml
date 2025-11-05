@@ -6,6 +6,7 @@ on:
     branches:
       - master
       - main
+      - 3.2.7
   workflow_dispatch:
 jobs:
   run-imaging-cloud-analyzer:
