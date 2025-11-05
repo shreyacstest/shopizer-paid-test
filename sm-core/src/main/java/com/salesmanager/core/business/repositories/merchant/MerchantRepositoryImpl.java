@@ -41,6 +41,7 @@ public class MerchantRepositoryImpl implements MerchantRepositoryCustom {
         if (criteria.getCode() == null) {
           req.append(" where");
           countBuilder.append(" where ");
+          
         } else {
           req.append(" or");
           countBuilder.append(" or ");
